@@ -1,0 +1,51 @@
+.mdiv{
+    height: 100vh;
+    width: 100vw;
+  background-color: rgb(184, 126, 238);
+}
+.d1
+{
+    border:2px solid black;
+    border-radius: 40px 40px;
+    background-color: dimgray;
+    height: 230px;
+    width: 200px;
+    /* margin-top: 5%; */
+    margin-left: 35%;
+    padding-top: 2%;
+}
+.d1:hover{
+    transform: scale(1.2);
+    background-color:lightblue;
+}
+.btn
+{
+    margin-top: 5px;
+    font-size: small;
+    height:35px ;
+    width: 35px;
+    border-radius: 15px 15px;
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid white;
+}
+.btn:hover{
+    transform: scale(1.1);
+    color: purple;
+    border: 1px solid darkblue;
+    background-color:plum;
+    border-radius: 20px 20px; 
+    box-shadow: 5px 5px 10px black;
+}
+.inputfeild
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    width:170px;
+    height: 40px;
+    background-color: azure;
+}
+.inputfeild:hover{
+    transform: scale(1.1);
+    background-color: white;
+}
